@@ -63,19 +63,16 @@ while True:
         print('\nInventario de Productos')
         for i in range(len(nombres)):
             print(f'Producto {i+1}: {nombres[i].capitalize()}, Precio: ${precios[i]:.2f}, Cantidad: {cantidades[i]}')
-            
+
     #mostrar ventas totales
     elif opcion == 3:
-         print(f'\nVentas totales acumuladas: ${ventasTotales:.2f}')
-         
+        print(f'\nVentas totales acumuladas: ${ventasTotales:.2f}')
     #salir del programa
     elif opcion == 4:
         print('gracias por usar el sistema de gestion drogueria dev senior')
         break
     
     else:
-            
-         print('opcion invalida. ingresar entre (1-4)')
-         
-        
+        print('opcion invalida. ingresar entre (1-4)')
+
 
